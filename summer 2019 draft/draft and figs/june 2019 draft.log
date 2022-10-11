@@ -1,0 +1,808 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.24)  24 JAN 2020 12:40
+entering extended mode
+**"C:/Users/peter/Desktop/mutant morphine project/summer 2019 draft/draft and f
+igs/june 2019 draft.tex"
+
+("C:/Users/peter/Desktop/mutant morphine project/summer 2019 draft/draft and fi
+gs/june 2019 draft.tex"
+LaTeX2e <2018-12-01>
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg"))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/preprint\authblk.s
+ty"
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip43
+\@affilsep=\skip44
+\c@Maxaffil=\count91
+\c@authors=\count92
+\c@affil=\count93
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen113
+))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen114
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks20
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks21
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks22
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
+.sty"
+Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+y"
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+ty"
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@caption@flags=\count106
+\c@ContinuedFloat=\count107
+)
+\c@subfigure=\count108
+\c@subtable=\count109
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks24
+\float@box=\box29
+\@float@everytoks=\toks25
+\@floatcapt=\box30
+)
+No file "june 2019 draft".aux.
+\openout1 = `"june 2019 draft.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen129
+\scratchbox=\box31
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen130
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks27
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+("C:\Users\peter\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `unaids' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Alcabes' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Kohli' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Kumar' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Hauser' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Li' on page 1 undefined on input line 38.
+
+[1
+
+{C:/Users/peter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `Kitchen' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Killeen' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Chan' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Greenough' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Ganusov2013' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Klein' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Klein' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Fryer' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Chan' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Boutwell' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `McMichael' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Ribeiro' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Deng' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Konrad' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Barouch' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Kumar' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Noel2006' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Noel2007' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Rivera-Amill' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Kumar' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Miyagi' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Li' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Rivera-Amill' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Perelson' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Chubb' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Konrad' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Conway' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Schwartz' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Vaidya' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Mutua' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2006' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2011' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2013' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2006' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2011' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Ganusov2013' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Mutua' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Konrad' on page 2 undefined on input line 50.
+
+[2]
+
+LaTeX Warning: Citation `Perelson' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Schwartz' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Vaidya' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Mutua' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Kumar' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Miyagi' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Li' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Klein' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `McMichael' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Konrad' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `De Boer' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `Vaidya' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Perelson' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Schwartz' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Ganusov2011' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Konrad' on page 3 undefined on input line 78.
+
+
+LaTeX Warning: Citation `Konrad' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Konrad' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Barouch' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Conway' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `Konrad' on page 3 undefined on input line 82.
+
+
+LaTeX Warning: Citation `De Boer' on page 3 undefined on input line 82.
+
+[3]
+
+LaTeX Warning: Citation `Kumar' on page 4 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Miyagi' on page 4 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Noel2006' on page 4 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Noel2007' on page 4 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Rivera-Amill' on page 4 undefined on input line 88.
+
+
+LaTeX Warning: Citation `Noel2006' on page 4 undefined on input line 102.
+
+
+LaTeX Warning: Citation `Noel2007' on page 4 undefined on input line 102.
+
+[4]
+
+LaTeX Warning: Citation `Vaidya' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Vaidya' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Vaidya' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Vaidya' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Vaidya' on page 5 undefined on input line 124.
+
+
+LaTeX Warning: Citation `Stafford' on page 5 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Ramratnam' on page 5 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Mansky' on page 5 undefined on input line 129.
+
+
+LaTeX Warning: Citation `De Boer' on page 5 undefined on input line 129.
+
+[5]
+
+LaTeX Warning: Citation `Ganusov2011' on page 6 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Ganusov2011' on page 6 undefined on input line 133.
+
+
+LaTeX Warning: Citation `Olkkola' on page 6 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Olkkola' on page 6 undefined on input line 139.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 154.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 156.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 158.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 160.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 162.
+
+
+LaTeX Warning: Citation `Olkkola' on page 6 undefined on input line 164.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 168.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 170.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 174.
+
+
+LaTeX Warning: Citation `Ganusov2011' on page 6 undefined on input line 176.
+
+
+LaTeX Warning: Citation `De Boer' on page 6 undefined on input line 180.
+
+
+LaTeX Warning: Citation `Mansky' on page 6 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Stafford' on page 6 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Ramratnam' on page 6 undefined on input line 198.
+
+
+LaTeX Warning: Citation `Vaidya' on page 6 undefined on input line 200.
+
+
+LaTeX Warning: Citation `De Boer' on page 6 undefined on input line 202.
+
+
+LaTeX Warning: Citation `Olkkola' on page 6 undefined on input line 204.
+
+[6]
+
+LaTeX Warning: Citation `Castillo-Chavez' on page 7 undefined on input line 214
+.
+
+
+LaTeX Warning: Citation `Diekmann' on page 7 undefined on input line 220.
+
+
+LaTeX Warning: Citation `Diekmann' on page 7 undefined on input line 220.
+
+[7] [8]
+
+LaTeX Warning: Citation `Diekmann' on page 9 undefined on input line 266.
+
+
+LaTeX Warning: Citation `Castillo-Chavez' on page 9 undefined on input line 273
+.
+
+
+LaTeX Warning: Citation `Marino' on page 9 undefined on input line 283.
+
+
+LaTeX Warning: Citation `Perera' on page 9 undefined on input line 283.
+
+
+LaTeX Warning: Citation `Rodrigues' on page 9 undefined on input line 283.
+
+
+LaTeX Warning: Reference `fig:sen_ind' on page 9 undefined on input line 283.
+
+Package epstopdf Info: Source file: <rw_sen.eps>
+(epstopdf)                    date: 2019-07-09 14:53:38
+(epstopdf)                    size: 33270 bytes
+(epstopdf)             Output file: <rw_sen-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=rw_sen-eps-converted-to.pdf
+ rw_sen.eps>
+(epstopdf)             \includegraphics on input line 289.
+runsystem(epstopdf --outfile=rw_sen-eps-converted-to.pdf rw_sen.eps)...executed
+ (allowed).
+
+Package epstopdf Info: Result file: <rw_sen-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-24 12:40:52
+(epstopdf)                    size: 16625 bytes.
+
+
+pdfTeX warning: pdflatex (file ./rw_sen-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<rw_sen-eps-converted-to.pdf, id=46, 421.575pt x 316.18124pt>
+File: rw_sen-eps-converted-to.pdf Graphic file (type pdf)
+<use rw_sen-eps-converted-to.pdf>
+Package pdftex.def Info: rw_sen-eps-converted-to.pdf  used on input line 289.
+(pdftex.def)             Requested size: 231.86696pt x 173.9002pt.
+
+Overfull \hbox (16.86465pt too wide) in paragraph at lines 289--291
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <rm_sen.eps>
+(epstopdf)                    date: 2019-07-09 14:53:56
+(epstopdf)                    size: 33200 bytes
+(epstopdf)             Output file: <rm_sen-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=rm_sen-eps-converted-to.pdf
+ rm_sen.eps>
+(epstopdf)             \includegraphics on input line 295.
+runsystem(epstopdf --outfile=rm_sen-eps-converted-to.pdf rm_sen.eps)...executed
+ (allowed).
+
+Package epstopdf Info: Result file: <rm_sen-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-24 12:40:53
+(epstopdf)                    size: 16670 bytes.
+
+
+pdfTeX warning: pdflatex (file ./rm_sen-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<rm_sen-eps-converted-to.pdf, id=47, 421.575pt x 316.18124pt>
+File: rm_sen-eps-converted-to.pdf Graphic file (type pdf)
+<use rm_sen-eps-converted-to.pdf>
+Package pdftex.def Info: rm_sen-eps-converted-to.pdf  used on input line 295.
+(pdftex.def)             Requested size: 231.86696pt x 173.9002pt.
+
+Overfull \hbox (16.86465pt too wide) in paragraph at lines 295--297
+ [][] 
+ []
+
+
+Overfull \hbox (4.84322pt too wide) in paragraph at lines 287--298
+ [][]  [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+Package epstopdf Info: Source file: <pop_switch.eps>
+(epstopdf)                    date: 2019-12-19 15:52:10
+(epstopdf)                    size: 27092 bytes
+(epstopdf)             Output file: <pop_switch-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=pop_switch-eps-converted-to
+.pdf pop_switch.eps>
+(epstopdf)             \includegraphics on input line 309.
+runsystem(epstopdf --outfile=pop_switch-eps-converted-to.pdf pop_switch.eps)...
+executed (allowed).
+
+Package epstopdf Info: Result file: <pop_switch-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-24 12:40:54
+(epstopdf)                    size: 9770 bytes.
+
+
+pdfTeX warning: pdflatex (file ./pop_switch-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<pop_switch-eps-converted-to.pdf, id=51, 421.575pt x 316.18124pt>
+File: pop_switch-eps-converted-to.pdf Graphic file (type pdf)
+<use pop_switch-eps-converted-to.pdf>
+Package pdftex.def Info: pop_switch-eps-converted-to.pdf  used on input line 30
+9.
+(pdftex.def)             Requested size: 316.18047pt x 237.13535pt.
+[10 <./rw_sen-eps-converted-to.pdf> <./rm_sen-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:pop_switch' on page 11 undefined on input line 31
+6.
+
+
+LaTeX Warning: Reference `fig:M_thresh_F_B' on page 11 undefined on input line 
+326.
+
+[11 <./pop_switch-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <M_thresh_F.eps>
+(epstopdf)                    date: 2020-01-10 14:58:14
+(epstopdf)                    size: 18138 bytes
+(epstopdf)             Output file: <M_thresh_F-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=M_thresh_F-eps-converted-to
+.pdf M_thresh_F.eps>
+(epstopdf)             \includegraphics on input line 340.
+runsystem(epstopdf --outfile=M_thresh_F-eps-converted-to.pdf M_thresh_F.eps)...
+executed (allowed).
+
+Package epstopdf Info: Result file: <M_thresh_F-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-01-24 12:40:54
+(epstopdf)                    size: 1528 bytes.
+
+!pdfTeX error: pdflatex (file ./M_thresh_F-eps-converted-to.pdf): xpdf: reading
+ PDF image failed
+ ==> Fatal error occurred, no output PDF file produced!
