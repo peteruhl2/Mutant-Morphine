@@ -9,7 +9,7 @@ global b di B omega dc EP ALP
 ef1 = 0.9;
 ef2 = 0.9;
 
-M = 200;
+M = 00;
 
 Mh = 100; %2.8534e-3;
 rc = 0.16;
