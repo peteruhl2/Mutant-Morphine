@@ -23,7 +23,7 @@ bl = 1e-9;
 bh = 1e-7;
 p = 2500; %2500
 b = 0.25;%0.005 Vitaly: 0.01 to 0.4
-B = 30;%20.5;%10.5;%50
+B = 50;%20.5;%10.5;%50
 dt = 0.01;
 dv = 23;
 di = 0.7;
@@ -52,15 +52,15 @@ Rw = ( (1-EP).*(bh*Th + bl*Tl)*p )./( dv*(b*C+di) );
 Rm = ( (1-F)*(bh*Th + bl*Tl)*(1+B)*p)./(dv*(di*B+b*C+di));
 R0 = max(Rw,Rm);
 
-% figure
+figure
 hold on; box on
 plot(M,Rw,'b',"Linewidth",2)
 plot(M,Rm,'r',"Linewidth",2)
 plot(M,R0,'g--',"Linewidth",2)
-xlabel('Morphine concentration (M)')
-ylabel('Basic reproduction number')
+xlabel('Morphine concentration (ug/ml)','fontsize',14)
+ylabel('Basic reproduction number','fontsize',14)
 plot([M(1) M(end)],[1 1],'--')
-legend('R_0^w','R_0^m','R_0','Location','Northwest')
+legend('R_0^w','R_0^m','R_0','Location','Northwest','fontsize',12)
 % title('Basic reproduction number')
 
 
