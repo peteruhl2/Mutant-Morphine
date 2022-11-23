@@ -62,11 +62,11 @@ tspan = [0 400];
 
 [t y] = ode15s(@mut_model,tspan,y0,options);
 
-%%% plot viral load
-plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
-hold on
-xlabel('Days post infection','fontsize',14)
-ylabel('log_{10} viral RNA per ml','fontsize',14)
+% %%% plot viral load
+% plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
+% hold on
+% xlabel('Days post infection','fontsize',14)
+% ylabel('log_{10} viral RNA per ml','fontsize',14)
 
 figure()
 hold on; box on;
