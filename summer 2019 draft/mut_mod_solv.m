@@ -3,7 +3,7 @@ clear all;
 global lambda q r bl bh F dt p dv
 global b di B omega dc EP ALP 
 
-M = 0;
+M = 200;
 
 Mh = 100; %2.8534e-3;
 rc = 0.16;
@@ -65,15 +65,17 @@ tspan = [0 400];
 %%% plot viral load
 plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
 hold on
-xlabel('Days post infection')
-ylabel('log_{10} viral RNA per ml')
+xlabel('Days post infection','fontsize',14)
+ylabel('log_{10} viral RNA per ml','fontsize',14)
 
 figure()
 hold on; box on;
 plot(t, log10(y(:,3)), 'Linewidth',2)
-plot(t, log10(y(:,4)), '.', 'Linewidth',2)
-xlabel('Days post infection')
-ylabel('log_{10} viral RNA per ml')
+plot(t, log10(y(:,4)), 'Linewidth',2)
+xlabel('Days post infection','fontsize',14)
+ylabel('log_{10} viral RNA per ml','fontsize',14)
+axis([0 400 -2 8])
+legend('V_w','V_m','fontsize',14)
 
 
 % %%% plot CD4 count

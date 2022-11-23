@@ -1,8 +1,9 @@
 %%% Latin hypercube sampling for Rw, Rm
+%%% this one actually makes the double bar graph for the figure
 
 clear all;
 
-M = 1;
+M = 10;
 
 lambda = 3690;
 q = 1;
@@ -29,24 +30,26 @@ par = [lambda, q, r, bl, bh, p, b, B, dt, dv, di, dc, ep, F, omega_base, mu, eta
 % return
 
 %%% LHC Sampling here =====================================================
-bounds = [1500 10000;
-          1e-8 2.8;
-          0.005 2.7;
-          1e-11 1e-5;
-          1e-9 1e-3;
-          500 5500;
-          0.005 1.8;
-          0.1 100;
-          0.001 1.2;
-          1 50;
-          0.01 10;
-          0.001 1.6;
-          3e-7 3e-3;
-          0.001 0.99;
-          0.1 40;
-          0.01 50;
-          0.01 50;
-          0.001 1.5];
+% bounds = [1500 10000;
+%           1e-8 2.8;
+%           0.005 2.7;
+%           1e-11 1e-5;
+%           1e-9 1e-3;
+%           500 5500;
+%           0.005 1.8;
+%           0.1 100;
+%           0.001 1.2;
+%           1 50;
+%           0.01 10;
+%           0.001 1.6;
+%           3e-7 3e-3;
+%           0.001 0.99;
+%           0.1 40;
+%           0.01 50;
+%           0.01 50;
+%           0.001 1.5];
+
+bounds = [0.01*par' 2*par'];
 
 n_sims = 20000;
 n_params = length(par);
