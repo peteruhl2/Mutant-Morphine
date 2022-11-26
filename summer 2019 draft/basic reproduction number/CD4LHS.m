@@ -3,7 +3,7 @@ clear all;
 
 % global M
 
-M = 00;
+M = 200;
 
 lambda = 3690;
 q = 1;
@@ -137,7 +137,7 @@ xtickangle(0)
 % legend('V_w','V_m')
 title('d)                                                                                                                         ','Fontsize',14)
 dim = [.7 .6 .3 .3];
-str = "M = " + M + " ug/ml";
+str = "CTL PRCCs" + newline + "M = " + M + " ug/ml";
 annotation('textbox',dim,'String',str,'FitBoxToText','on','fontsize',14);
 
 
