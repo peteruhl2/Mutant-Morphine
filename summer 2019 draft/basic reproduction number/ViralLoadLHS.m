@@ -1,9 +1,9 @@
 %%% Latin hypercube sampling for stead state Vw, Vm
 clear all;
 
-global M
+% global M
 
-M = 200;
+M = 00;
 
 lambda = 3690;
 q = 1;
@@ -60,13 +60,16 @@ bounds = [1500 10000;
           0.001 1.2;
           1 50;
           0.01 10;
-          0.001 0.99;
+          0.001 1.6;
           3e-7 3e-3;
           0.001 1.5;
           0.1 40;
           0.01 50;
           0.01 50;
           0.001 1.5];
+
+% %%% better way to get bounds?
+% bounds = [0.01*par' 2*par'];
 
 n_sims = 10000;
 n_params = length(par);
@@ -83,11 +86,11 @@ end
 results = zeros(n_sims,1);
 
 tic
-for i = 1:n_sims
+parfor i = 1:n_sims
     i
     par = X(i,:);
     
-    [t y] = ode15s(@(t,y) mut_model(t,y,par),tspan,y0);
+    [t y] = ode15s(@(t,y) mut_model(t,y,par,M),tspan,y0);
     
 %     Vw = y(end,3);
 %     Vm = y(end,4);
@@ -132,8 +135,11 @@ set(gca,'XTickLabel',a,'FontName','Times','fontsize',18)
 xtickangle(0)
 
 % legend('V_w','V_m')
-title('b)                                                                                                                         ','Fontsize',14)
-
+title('a)                                                                                                                         ','Fontsize',14)
+% title('d)                                                                                                                         ','Fontsize',14)
+dim = [.7 .6 .3 .3];
+str = "M = " + M + " ug/ml";
+annotation('textbox',dim,'String',str,'FitBoxToText','on','fontsize',14);
 
 
 
@@ -146,8 +152,8 @@ title('b)                                                                       
 
 %%% Functions =============================================================
 
-function yp = mut_model(t,y,par)
-global M
+function yp = mut_model(t,y,par,M)
+% global M
 
 %%% q-r parameters
 Mh = 100; %2.8534e-3;

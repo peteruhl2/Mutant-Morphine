@@ -1,4 +1,4 @@
-%%% Latin hypercube sampling for stead state CD4 count
+%%% Latin hypercube sampling for stead state Vw, Vm
 clear all;
 
 % global M
@@ -49,27 +49,27 @@ y0 = [Tl0 Th0 Vw0 Vm0 Iw0 Im0 C0];
 tspan = [0 1e6];
 
 %%% LHC Sampling here =====================================================
-bounds = [1500 10000;
-          1e-8 2.8;
-          0.005 2.7;
-          1e-11 1e-5;
-          1e-9 1e-3;
-          500 5500;
-          0.005 1.8;
-          0.1 100;
-          0.001 1.2;
-          1 50;
-          0.01 10;
-          0.001 1.6;
-          3e-7 3e-3;
-          0.001 1.5;
-          0.1 40;
-          0.01 50;
-          0.01 50;
-          0.001 1.5];
+% bounds = [1500 10000;
+%           1e-8 2.8;
+%           0.005 2.7;
+%           1e-11 1e-5;
+%           1e-9 1e-3;
+%           500 5500;
+%           0.005 1.8;
+%           0.1 100;
+%           0.001 1.2;
+%           1 50;
+%           0.01 10;
+%           0.001 1.6;
+%           3e-7 3e-3;
+%           0.001 1.5;
+%           0.1 40;
+%           0.01 50;
+%           0.01 50;
+%           0.001 1.5];
 
-% %%% better way to get bounds?
-% bounds = [0.01*par' 2*par'];
+%%% better way to get bounds?
+bounds = [0.01*par' 2*par'];
 
 n_sims = 10000;
 n_params = length(par);
@@ -79,7 +79,6 @@ X = lhsdesign(n_sims,n_params);
 
 % apply parameters to columns of X
 for i = 1:n_params
-%     X(:,i) = par(i)*X(:,i);
     X(:,i) = bounds(i,1) + (bounds(i,2) - bounds(i,1))*X(:,i);
 end
 
@@ -87,7 +86,7 @@ end
 results = zeros(n_sims,1);
 
 tic
-parfor i = 1:n_sims
+for i = 1:n_sims
     i
     par = X(i,:);
     
@@ -95,12 +94,13 @@ parfor i = 1:n_sims
     
 %     Vw = y(end,3);
 %     Vm = y(end,4);
-    CD4 = y(end,1) + y(end,2);
-    results(i) = CD4;
+%     CD4 = y(end,1);
+    results(i) = y(end,3) + y(end,4);
 end
 toc
 
 %%% remover outliers ======================================================
+
 lose = isoutlier(results);
 keep = ~lose;
 
@@ -135,7 +135,8 @@ set(gca,'XTickLabel',a,'FontName','Times','fontsize',18)
 xtickangle(0)
 
 % legend('V_w','V_m')
-title('d)                                                                                                                         ','Fontsize',14)
+title('b)                                                                                                                         ','Fontsize',14)
+% title('d)                                                                                                                         ','Fontsize',14)
 dim = [.7 .6 .3 .3];
 str = "M = " + M + " ug/ml";
 annotation('textbox',dim,'String',str,'FitBoxToText','on','fontsize',14);
