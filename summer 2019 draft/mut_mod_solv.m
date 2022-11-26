@@ -62,29 +62,30 @@ tspan = [0 400];
 
 [t y] = ode15s(@mut_model,tspan,y0,options);
 
-% %%% plot viral load
-% plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
-% hold on
-% xlabel('Days post infection','fontsize',14)
-% ylabel('log_{10} viral RNA per ml','fontsize',14)
-
-figure()
-hold on; box on;
-plot(t, log10(y(:,3)), 'Linewidth',2)
-plot(t, log10(y(:,4)), 'Linewidth',2)
+%%% plot viral load
+plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
+hold on
 xlabel('Days post infection','fontsize',14)
 ylabel('log_{10} viral RNA per ml','fontsize',14)
-axis([0 400 -2 8])
-legend('V_w','V_m','fontsize',14)
+
+% figure()
+% hold on; box on;
+% plot(t, log10(y(:,3)), 'Linewidth',2)
+% plot(t, log10(y(:,4)), 'Linewidth',2)
+% xlabel('Days post infection','fontsize',14)
+% ylabel('log_{10} viral RNA per ml','fontsize',14)
+% axis([0 400 -2 8])
+% legend('V_w','V_m','fontsize',14)
 
 
-% %%% plot CD4 count
+% % plot CD4 count
 % hold on; box on
 % plot(t,log10(y(:,1)+y(:,2)),'Linewidth',2)
 % hold on
-% xlabel('Days post infection')
-% ylabel('log_{10} CD4+ count per ml')
-% title('b)                                                                                                         ')
+% xlabel('Days post infection','fontsize',14)
+% ylabel('log_{10} CD4+ count per ml','fontsize',14)
+% title('b)                                                                                                                                        ')
+% legend('M = 0 ug/l','M = 200 ug/l','fontsize',14)
 
 % title('Individual viral populations, M = 0')
 

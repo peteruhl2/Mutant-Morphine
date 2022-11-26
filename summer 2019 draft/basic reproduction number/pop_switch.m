@@ -57,7 +57,7 @@ hold on; box on
 plot(M,Rw,'b',"Linewidth",2)
 plot(M,Rm,'r',"Linewidth",2)
 plot(M,R0,'g--',"Linewidth",2)
-xlabel('Morphine concentration (ug/ml)','fontsize',14)
+xlabel('Morphine concentration (ug/l)','fontsize',14)
 ylabel('Basic reproduction number','fontsize',14)
 plot([M(1) M(end)],[1 1],'--')
 legend('R_0^w','R_0^m','R_0','Location','Northwest','fontsize',12)

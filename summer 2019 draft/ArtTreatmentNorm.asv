@@ -81,7 +81,6 @@ p = (1 - ef2)*p;
 y0 = y(end,:);
 
 %%% steady state viral load
-highssvl = 4.6210e+05; % value for M = 200
 ssvl = y0(3) + y0(4);
 
 tspan = [t1end :0.001: t1end + 30];
@@ -103,13 +102,8 @@ y = [y; y2];
 
 %%% find time to below detection relative
 vl = log10(y2(:,3)+y2(:,4));
-tind = find(vl < (50/highssvl));
 
-% first one where vl < log10(50)
-tind = tind(1);
 
-% time difference from start of art
-arttime = t2(tind) - t2(1)
 
 
 
@@ -130,10 +124,10 @@ plot(t,(y(:,3)+y(:,4))/ssvl,'Linewidth',2)
 hold on
 xlabel('Days post infection')
 ylabel('log_{10} viral RNA per ml')
-axis([380 t(end) 0 .02])
+axis([380 t(end) 0 1.2])
 yline((50)/ssvl,'--')
 % xline(250)
-xline(t2(1) + arttime)
+% xline(t2(1) + arttime)
 
 % figure()
 % hold on; box on;
