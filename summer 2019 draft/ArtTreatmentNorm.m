@@ -78,23 +78,37 @@ p = (1 - ef2)*p;
 
 
 y0 = y(end,:);
-tspan = [250 400];
+tspan = [250 :0.001: 280];
 
 [t2 y2] = ode15s(@mut_model,tspan,y0,options);
 
 t = [t; t2];
 y = [y; y2];
 
+%%% find time to below detection
+vl = log10(y2(:,3)+y2(:,4));
+tind = find(vl < log10(50));
+
+% first one where vl < log10(50)
+tind = tind(1);
+
+% time difference from start of art
+arttime = t2(tind) - t2(1)
 
 
-%%% plot viral load
+
+
+
+
+%%% plot viral load 
 plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
 hold on
 xlabel('Days post infection')
 ylabel('log_{10} viral RNA per ml')
 axis([200 300 -1 7])
-% yline(log10(50),'--')
+yline(log10(50),'--')
 % xline(250)
+xline(t2(1) + arttime)
 
 % figure()
 % hold on; box on;
