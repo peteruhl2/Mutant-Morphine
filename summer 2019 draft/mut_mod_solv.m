@@ -67,6 +67,8 @@ plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
 hold on
 xlabel('Days post infection','fontsize',14)
 ylabel('log_{10} viral RNA per ml','fontsize',14)
+title('a)                                                                                                                                        ')
+legend('M = 0 ug/l','M = 200 ug/l','fontsize',14)
 
 % figure()
 % hold on; box on;
