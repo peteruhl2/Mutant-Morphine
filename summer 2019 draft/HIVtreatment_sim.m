@@ -95,6 +95,7 @@ ylabel('log_{10} viral RNA per ml')
 axis([200 300 -1 7])
 % yline(log10(50),'--')
 % xline(250)
+legend('M = 0 ug/l', 'M = 200 ug/l', 'Detection Level', 'Beginning of ART','fontsize',14)
 
 % figure()
 % hold on; box on;
