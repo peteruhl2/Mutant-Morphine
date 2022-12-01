@@ -64,70 +64,46 @@ y0 = [Tl0 Th0 Vw0 Vm0 Iw0 Im0 C0];
 options = odeset('NonNegative',1);
 
 % tspan = [0 1e6];
-t1end = 400;
-tspan = [0 t1end];
+tspan = [0 250];
 
 [t y] = ode15s(@mut_model,tspan,y0,options);
 
 %%% solve with treatment ==================================================
 % integrase inhibitor
 bl = (1 - ef1)*bl;
-bh = (1 - ef2)*bl;
+bh = (1 - ef2)*bh;
 
 % protease inhibitor
 p = (1 - ef2)*p;
 
+%%% morphine or no
+M = 200;
+r = rc + (rm-rc)*eta_r(M);
+q = qc + (qm - qc)*eta_q(M);
+EP = ep/(mu + eta*M);
+ALP = alp/(gamma + xi*M);
+omega = omega_base*exp(-psi*M);%50
+
 
 y0 = y(end,:);
-
-%%% steady state viral load
-ssvl = y0(3) + y0(4);
-
-tspan = [t1end :0.001: t1end + 30];
+tspan = [250 400];
 
 [t2 y2] = ode15s(@mut_model,tspan,y0,options);
 
 t = [t; t2];
 y = [y; y2];
 
-% %%% find time to below detection absolute
-% vl = log10(y2(:,3)+y2(:,4));
-% tind = find(vl < log10(50));
-% 
-% % first one where vl < log10(50)
-% tind = tind(1);
-% 
-% % time difference from start of art
-% arttime = t2(tind) - t2(1)
-
-%%% find time to below detection relative
-vl = log10(y2(:,3)+y2(:,4));
 
 
-
-
-
-% %%% plot viral load 
-% plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
-% hold on
-% xlabel('Days post infection')
-% ylabel('log_{10} viral RNA per ml')
-% axis([200 300 -1 7])
-% yline(log10(50),'--')
-% % xline(250)
-% xline(t2(1) + arttime)
-
-
-%%% plot percent drop relative to ss VL?
-%%% plot viral load 
-plot(t,(y(:,3)+y(:,4))/ssvl,'Linewidth',2)
+%%% plot viral load
+plot(t,log10(y(:,3)+y(:,4)),'Linewidth',2)
 hold on
 xlabel('Days post infection')
 ylabel('log_{10} viral RNA per ml')
-axis([380 t(end) 0 1.2])
-yline((50)/ssvl,'--')
-% xline(250)
-% xline(t2(1) + arttime)
+axis([200 300 -1 7])
+yline(log10(50),'--')
+xline(250)
+legend('M = 0 ug/l Post-ART', 'M = 200 ug/l During ART', 'Detection Level', 'Beginning of ART','fontsize',14)
 
 % figure()
 % hold on; box on;

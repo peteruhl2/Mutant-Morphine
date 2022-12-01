@@ -71,7 +71,7 @@ tspan = [0 250];
 %%% solve with treatment ==================================================
 % integrase inhibitor
 bl = (1 - ef1)*bl;
-bh = (1 - ef2)*bl;
+bh = (1 - ef2)*bh;
 
 % protease inhibitor
 p = (1 - ef2)*p;
