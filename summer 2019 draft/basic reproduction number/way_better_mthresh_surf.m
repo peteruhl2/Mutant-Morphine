@@ -6,7 +6,7 @@ clear all; close all
 npts = 1000;
 morphine = linspace(0,200,npts);
 fitness = linspace(0,1,npts);
-escape = linspace(0,50,npts);
+escape = linspace(0,10,npts);
 results = zeros(length(escape),length(fitness));
 options = optimset('Display','off');
 
@@ -35,13 +35,18 @@ toc
 [X Y] = meshgrid(escape,fitness);
 contourf(X,Y,(results)')
 shading interp
-xlabel('Escape ratio (B)')
-ylabel('Fitness cost (F)')
+xlabel('Escape ratio (B)','fontsize',14)
+ylabel('Fitness cost (F)','fontsize',14)
 zlabel('M_{Thres}')
 colorbar
 % caxis([0 80])
 % axis([0 50 0 1])
 % title('M_{thresh} in F-B parameter space')
+a = colorbar;
+a.Label.String = 'M_{thresh}';
+a.Label.FontSize = 14;
+box on
+
 
 %%% define equation to be solved for M with parameters F and B 
 function val = myfun(M,F,B)

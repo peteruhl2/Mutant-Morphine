@@ -7,7 +7,7 @@ clear all
 syms M
 assume(M > 0)
 
-npts = 300;
+npts = 100;
 
 % %%% test
 % escape = [0.3026 2.028 4.041];
@@ -19,7 +19,7 @@ npts = 300;
 
 %%% actually want to go from 0 to 50 for B and 
 %%% 0 to 1 for F
-escape = linspace(0,50,npts);
+escape = linspace(0,15,npts);
 fitness = linspace(0,1,npts);
 results = zeros(length(escape),length(fitness));
 

@@ -9,7 +9,9 @@ global b di B omega dc EP ALP
 ef1 = 0.9;
 ef2 = 0.9;
 
+%%% morphine pre and post ART
 M = 200;
+M2 = 200;
 
 Mh = 100; %2.8534e-3;
 rc = 0.16;
@@ -69,20 +71,55 @@ tspan = [0 250];
 [t y] = ode15s(@mut_model,tspan,y0,options);
 
 %%% solve with treatment ==================================================
+
+% %%% morphine or no
+% M = 0;
+
+Mh = 100; %2.8534e-3;
+rc = 0.16;
+rm = 0.52;
+qc = 1.23e-6;
+qm = 0.25;
+n = 8;
+
+eta_r = @(M) (M^n)/(Mh^n+M^n);
+eta_q = @(M) 1-eta_r(M);
+
+r = rc + (rm-rc)*eta_r(M2);
+q = qc + (qm - qc)*eta_q(M2);
+
+lambda = 3690;%3690;
+F = 0.1;%0.1;
+bl = 1e-9;
+bh = 1e-7;
+p = 2500; %2500
+b = 0.25;%0.005 Vitaly: 0.01 to 0.4
+B = 30; %30
+dt = 0.01;
+dv = 23;
+di = 0.7;
+dc = 0.2; %0.63
+
+ep = 3e-5;
+mu = 1;%4/24;
+eta = 1;
+EP = ep/(mu + eta*M2);
+
+alp = 6.7e-5;%6.7e-6
+gamma = 1; %0.4;%0.4;
+xi = 1;
+ALP = alp/(gamma + xi*M2);
+
+psi = 0.1;
+omega_base = 15; %50
+omega = omega_base*exp(-psi*M2);%50
+
 % integrase inhibitor
 bl = (1 - ef1)*bl;
-bh = (1 - ef2)*bh;
+bh = (1 - ef1)*bh;
 
 % protease inhibitor
 p = (1 - ef2)*p;
-
-%%% morphine or no
-M = 200;
-r = rc + (rm-rc)*eta_r(M);
-q = qc + (qm - qc)*eta_q(M);
-EP = ep/(mu + eta*M);
-ALP = alp/(gamma + xi*M);
-omega = omega_base*exp(-psi*M);%50
 
 
 y0 = y(end,:);

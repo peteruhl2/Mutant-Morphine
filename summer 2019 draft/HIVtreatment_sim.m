@@ -9,7 +9,7 @@ global b di B omega dc EP ALP
 ef1 = 0.9;
 ef2 = 0.9;
 
-M = 200;
+M = 00;
 
 Mh = 100; %2.8534e-3;
 rc = 0.16;
@@ -71,7 +71,7 @@ tspan = [0 250];
 %%% solve with treatment ==================================================
 % integrase inhibitor
 bl = (1 - ef1)*bl;
-bh = (1 - ef2)*bh;
+bh = (1 - ef1)*bh;
 
 % protease inhibitor
 p = (1 - ef2)*p;
