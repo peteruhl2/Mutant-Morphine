@@ -111,8 +111,14 @@ X = X(keep,:);
 %%% get correlations coefficients =========================================
 corrs = zeros(n_params,1);
 for i = 1:n_params
-    temp1 = corrcoef(results(:,1), X(:,i));
-%     temp2 = corrcoef(results(:,2), X(:,i));
+
+    %%% rank transformation
+    rank_x = tiedrank(X(:,i));
+    temp1 = corrcoef(results(:,1), rank_x);
+
+    %%% not rank transformed
+%     temp1 = corrcoef(results(:,1), X(:,i));
+
     
     corrs(i) = temp1(1,2);
 %     corrs(i,2) = temp2(1,2);
