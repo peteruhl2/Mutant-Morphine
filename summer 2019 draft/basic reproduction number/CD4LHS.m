@@ -128,7 +128,7 @@ end
 
 figure()
 bar(corrs)
-xticks([1:18])
+xticks(1:18)
 xticklabels({'\lambda','q','r','\beta_l','\beta_{h}','p',...
        'b','B','\delta_T','\delta_V','\delta_I','\delta_C',...
        '\epsilon','F','\omega','\mu','\eta','\psi'})
