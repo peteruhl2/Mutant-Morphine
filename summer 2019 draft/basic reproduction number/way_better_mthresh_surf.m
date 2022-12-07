@@ -1,5 +1,6 @@
 %%% way %%%%ing better way of getting the F-B-Mthresh contour
 %%% uses fsolve instead of gd symbols
+%%% this is the one used for the figure in the paper 12/6/22
 
 clear all; close all
 
@@ -43,9 +44,10 @@ colorbar
 % axis([0 50 0 1])
 % title('M_{thresh} in F-B parameter space')
 a = colorbar;
-a.Label.String = 'M_{thresh}';
+a.Label.String = 'M_{thresh} (ug/l)';
 a.Label.FontSize = 14;
 box on
+exportgraphics(gcf, 'msurf.eps')
 
 
 %%% define equation to be solved for M with parameters F and B 
