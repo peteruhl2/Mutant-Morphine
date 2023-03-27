@@ -3,7 +3,7 @@ clear all;
 global lambda q r bl bh F dt p dv
 global b di B omega dc EP ALP 
 
-M = 200;
+M = 00;
 
 Mh = 100; %2.8534e-3;
 rc = 0.16;
